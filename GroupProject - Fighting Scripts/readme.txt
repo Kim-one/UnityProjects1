@@ -1,0 +1,12 @@
+https://assetstore.unity.com/packages/audio/sound-fx/free-deadly-kombat-228835
+https://assetstore.unity.com/packages/audio/sound-fx/monsters-and-humanoids-sound-pack-221704
+https://assetstore.unity.com/packages/audio/sound-fx/free-sound-effects-pack-155776
+https://assetstore.unity.com/packages/audio/music/orchestral/free-game-music-collection-177094
+https://assetstore.unity.com/packages/3d/environments/landscapes/stylized-low-poly-rocks-271334
+https://assetstore.unity.com/packages/3d/animations/basic-motions-free-154271
+https://assetstore.unity.com/packages/3d/characters/jeremy-base-male-character-33083
+https://assetstore.unity.com/packages/2d/textures-materials/concrete/5-concrete-materials-1-255940
+https://assetstore.unity.com/packages/3d/characters/creatures/fantastic-creature-1-103074
+https://assetstore.unity.com/packages/3d/characters/humanoids/humans/adventure-character-201384
+https://assetstore.unity.com/packages/vfx/particles/fire-explosions/low-poly-fire-244190
+https://assetstore.unity.com/packages/3d/props/interior/clock-free-44164

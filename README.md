@@ -1,7 +1,7 @@
 # UnityProjects1 
 # ⚔️ Yavros City: Battleground Brawl
 
-A 3D Hunger Games-inspired PvE action game developed in Unity using C#. Created in a pair programming team, the game includes immersive environments, responsive UI, audio effects, and varied attack mechanics.
+A 3D Hunger Games-inspired PvE action game developed in Unity using C#. The game, created in a pair programming team, includes immersive environments, responsive UI, audio effects, and varied attack mechanics.
 
 ## 🎮 Game Features
 - 3 immersive levels
@@ -18,7 +18,7 @@ A 3D Hunger Games-inspired PvE action game developed in Unity using C#. Created 
 
 ## ▶️ How to Play
 - Navigate to [Playable Demo](https://simmer.io/@Kimone/yavros-city-battleground-brawl)
-- Use arrow keys / WASD to move
+- Use the arrow keys / WASD to move
 - Spacebar to attack
 
 ## 🔄 Future Enhancements (In Progress)

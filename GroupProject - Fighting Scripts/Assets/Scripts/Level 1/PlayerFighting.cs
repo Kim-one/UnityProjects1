@@ -39,13 +39,13 @@ public class PlayerFighting : MonoBehaviour
         //isWalkingForward = false;
         //isWalkingBackward = false;
         
-        //look at opponent 
+        //Look at the opponent 
         if (GameObject.FindGameObjectWithTag("Enemy") != null)
         {
             enemy = GameObject.FindGameObjectWithTag("Enemy").GetComponent<Transform>();
             transform.LookAt(enemy);
         }
-        // gets the enemy gameobject and 
+        // This gets the enemy script and waits (listens) for the death handler function to be called so that the player responds appropriately.
         NewBehaviourScript opponent = GameObject.FindWithTag("Enemy").GetComponent<NewBehaviourScript>();
         opponent.OnOpponentDeath.AddListener(OnOpponentDeathHandler);
         currHealth = maxhealth;
@@ -81,6 +81,7 @@ public class PlayerFighting : MonoBehaviour
         }
         //end of player attacks
     }
+    // Improves the player's health points when it collides with the health object
     private void OnCollisionEnter(Collision collision)
     {
         if(collision.gameObject.tag == "Health")
@@ -113,7 +114,8 @@ public class PlayerFighting : MonoBehaviour
         inRange(damagePoints);
         punch.GetComponent<Fighting>().KickSound();
     }
-
+    
+// This function gets the reference to the enemy (NPC) script. If it is found, then it calls the damage function to pass the damage points 
     void attackEnemy(int damagePoints)
     {
         NewBehaviourScript enemy1 = enemy.GetComponent<NewBehaviourScript>();
@@ -122,7 +124,7 @@ public class PlayerFighting : MonoBehaviour
             enemy1.CPUDamage(damagePoints);
         }
     }
-
+// This function checks if the enemy is in the player's attack range. If they are, then it calls he attack enemy function
     void inRange(int damage)
     {
         if((enemy.transform.position - transform.position).magnitude <= attackRange)

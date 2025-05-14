@@ -90,6 +90,8 @@ public class PlayerFighting : MonoBehaviour
             healthBar.value = currHealth;
         } 
     }
+
+    //These functions define the attacks, including the damage points, and play audio for the attacks
     private void attack1()
     {
         damagePoints = 1;

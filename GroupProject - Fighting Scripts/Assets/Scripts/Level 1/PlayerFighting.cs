@@ -45,7 +45,7 @@ public class PlayerFighting : MonoBehaviour
             enemy = GameObject.FindGameObjectWithTag("Enemy").GetComponent<Transform>();
             transform.LookAt(enemy);
         }
-        //health stuff
+        // gets the enemy gameobject and 
         NewBehaviourScript opponent = GameObject.FindWithTag("Enemy").GetComponent<NewBehaviourScript>();
         opponent.OnOpponentDeath.AddListener(OnOpponentDeathHandler);
         currHealth = maxhealth;
